@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    fieldset {
+        margin: 0 auto;
+        width: fit-content;
+        padding: 10px;
+        border-radius: 20px;
+        background-color: rgba(0, 0, 0, 0.416);
+    }
+    div {
+        margin-left: 15px;
+    }
+    img {
+        display: block;
+        margin: auto;
+    }
+    input {
+        border-radius: 10px 10px 10px 10px;
+        border: 2px solid #ccc;
+        padding: 5px;
+        font-size: 14px
+    }
+    select {
+        border-radius: 10px 10px 10px 10px;
+        border: 2px solid #ccc;
+        padding: 5px;
+        font-size: 14px
+    }
+    option {
+        border-radius: 10px 10px 10px 10px;
+        border: 2px solid #ccc;
+        padding: 5px;
+        font-size: 14px
+    }
+    body {
+        background-image: url('pexels-photo-7978988.jpeg');
+        background-size: cover;
+        background-position: center;
+        color: rgb(255, 255, 255);
+    }
+</style>
+<body>
+    <img src="hogwarts-7917.png" width="200" align="center">
+    <h1 align="center">HOGWARTS UNIVERSITY</h1>
+    <fieldset>
+        <fieldset class="fieldset center">
+            <legend align="center">Registration Form</legend>
+            <form>
+                Full Name
+                <br>
+                <input type="text" name="fullName" size="70" placeholder="Your Name" required>
+                <br><br>
+                e-Mail Address
+                <br>
+                <input type="email" name="e-mail" size="70" placeholder="Your e-Mail" required>
+                <br><br>
+                Place of Birth
+                <br>
+                <input type="text" name="place" size="70" placeholder="example : Bantul City" required>
+                <br><br>
+                Date of Birth
+                <br>
+                <input type="date" name="date" size="70" required>
+                <br><br>
+                Gender
+                <br>
+                <input type="radio" name="gender" value="male" required>Male
+                <br>
+                <input type="radio" name="gender" value="female" required>Female 
+                <br><br>
+                Blood Type
+                <br>
+                <select name="bloodtype">
+                    <option value="" disabled selected>--Select an option--</option>
+                    <option value="a">A</option>
+                    <option value="b">B</option>
+                    <option value="ab">AB</option>
+                    <option value="o">O</option>
+                </select>
+                <br><br>
+                Identity Card Number
+                <br>
+                <input type="text" name="noIdentity" size="70" placeholder="example : 505613" required>
+                <br><br>
+                Phone Number
+                <br>
+                <input type="tel" name="phone" size="70" placeholder="example : +62 812 3456 7890" required>
+                <br><br>
+                Complete Address
+                <br>
+                <input type="text" name="nationality" size="70" placeholder="example : Azkaban Village, Bantul City, Special Region of Yogyakarta" required>
+                <br><br>
+                Name of Study Program
+                <br>
+                <select name="studyprogram" required>
+                    <option value="" disabled selected>--Select an option--</option>
+                    <option value="1">Charms</option>
+                    <option value="2">Transfiguration Engineering</option>
+                    <option value="3">Potion</option>
+                    <option value="4">History of Magic</option>
+                    <option value="5">Astronomy</option>
+                    <option value="6">Herbology</option>
+                    <option value="7">Defense Against the Dark Arts</option>
+                </select>
+                <br><br>
+                Favorite color
+                <br>
+                <input type="radio" name="color" value="r" required> Red
+                <br>
+                <input type="radio" name="color" value="g" required> Green
+                <br>
+                <input type="radio" name="color" value="b" required> Blue
+                <br>
+                <input type="radio" name="color" value="y" required> Yellow
+                <br><br>
+                <input type="checkbox" name="dorm" required>
+                I am willing to be placed in any dormitory
+                <br><br>
+                <input type="reset" value="RESET">
+                <input type="submit" value="SUBMIT">
+            </form>
+        </fieldset>
+        </fieldset>
+    </fieldset>
+</body>
+</html>
